@@ -1,11 +1,11 @@
 .hamburgerdiv {
   z-index: 3;
-  width: 13%;
-  height: 88%;
+  width: 100%;
+  height: fit-content;
   background-color: rgba(11, 11, 28);
   position: fixed;
   right: 0%;
-  margin-top: 0.85%;
+  margin-top: 6%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -14,17 +14,15 @@
 }
 @keyframes open1 {
   from {
-    width: 0%;
-    height: 88%;
+    opacity: 0;
   }
   to {
-    width: 13%;
-    height: 88%;
+    opacity: 1;
   }
 }
 
 .hamburgerdiv.bottom {
-  margin-bottom: 5.8%;
+  margin-bottom: 26%;
 }
 .hamburgerdiv.left {
   max-height: 30vh;
@@ -41,7 +39,7 @@
   bottom: 0vw;
 }
 .hamburgerdiv.true {
-  animation: open1 0.5s;
+  animation: open1 2s;
 }
 .hamburgerdiv.false {
   display: none;

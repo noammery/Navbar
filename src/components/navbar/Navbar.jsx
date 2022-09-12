@@ -6,7 +6,7 @@ import "./navbar.css";
 function Navbar() {
   const titledecoration = "solid";
   //box/dotted/solid
-  const pageColor = "blue";
+  const pageColor = "maldives";
   // grey / white / blue / red(default=blank)/deepPurple/maldives/coolGreen
   const logoPosition = "first";
   const linksPosition = "second";
@@ -22,8 +22,8 @@ function Navbar() {
         <Logo
           color={pageColor}
           titledecoration={titledecoration}
-          logo="https://media-exp1.licdn.com/dms/image/C4E03AQE4v2dzOUokoA/profile-displayphoto-shrink_400_400/0/1661065309729?e=1668038400&v=beta&t=YMU5U4HqF0qFQmAvAohUfjrbEXAOzqkahqVEjbqnnxU"
-          title="NON Voulnteer"
+          logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa63z1PXA2jAtIj8-fgZ-4pFeck3NupEwmXw"
+          title="Tesla"
         />
         {/* Add you logo URL and your NAVBAR title */}
       </div>
@@ -35,7 +35,6 @@ function Navbar() {
             { linkTitle: "About", linkUrl: "" },
             { linkTitle: "Contact", linkUrl: "" },
             { linkTitle: "Products ", linkUrl: "" },
-            { linkTitle: "What's new?", linkUrl: "" },
           ]}
         />
       </div>
